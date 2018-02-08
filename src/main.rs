@@ -4,6 +4,9 @@ fn main() {
 
     stat_generator::print_welcome_message();
 
-    let roll_style = stat_generator::RollStyle::new();
+    let mut character = stat_generator::Character::new();
 
+    character.update_rollstyle();
+
+    character.roll_stats();
 }
