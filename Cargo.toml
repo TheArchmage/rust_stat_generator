@@ -1,0 +1,6 @@
+[package]
+name = "stat_generator"
+version = "0.1.0"
+authors = ["Jim Herner <thearchthaumaturge@gmail.com>"]
+
+[dependencies]
